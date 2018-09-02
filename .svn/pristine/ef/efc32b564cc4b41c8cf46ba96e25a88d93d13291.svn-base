@@ -1,0 +1,38 @@
+<div class="home__choose-vehicle">
+  <div class="nav__selected-vehicle" id="selectedVehicle" *ngIf="chooseVehicleEdit">
+    <div class="nav__selected-vehicle--img">
+      <img src="assets/images/{{homeModel}}-icon.jpg">
+    </div>
+    <div class="nav__selected-vehicle--txt">{{homeModel}} {{homeYear}}</div>
+    <div class="nav__selected-vehicle--edit" (click)="chooseVehicleForm = true; chooseVehicleEdit = false; chooseVehicleCancel = true;">
+    </div>
+  </div>
+  <div id="chooseVehicle" class="home__vehicle-selection" *ngIf="chooseVehicleForm">
+    <div class="home__choose-vehicle-title">Choose Your Vehicle</div>
+    <div class="form-group">
+      <form #sendCarInfo="ngForm"   (ngSubmit)="getCarInfoForm(ngxControl.value, ngxControl2.value)" #form="ngForm">
+        <div class="mb-4">
+          <!--<select id="carYear" placeholder="carYR" name="caryr" class="form-control" ngModel (ngModelChange)="yearChange($event)" required>
+            <option value=""> -- Select Year -- </option>
+            <option *ngFor='let yearHmData of yearData'>{{yearHmData}}</option>
+          </select>
+          <ngx-select [items]="yearData" [(ngModel)]="ngxValue" (selected)="yearChange($event)"></ngx-select> -->
+          <ngx-select [allowClear]="true" [formControl]="ngxControl" [items]="yearData" [(ngModel)]="ngxValue1" placeholder="Select Year" (select)="yearChange($event)">
+          </ngx-select>
+
+
+        </div>
+        <div class="mb-4">
+
+          <ngx-select [formControl]="ngxControl2" [allowClear]="true" [items]="selectedModel" [(ngModel)]="ngxValue2" placeholder="Select Model">
+          </ngx-select>
+        </div>
+        <div class="mb-4">
+          <button value="Submit" class="btn btn-primary" [disabled]="form.invalid">Submit</button>
+          <input type="button" *ngIf="chooseVehicleCancel" (click)="ngxControl.disabled? ngxControl.enable(): ngxControl.disable(); chooseVehicleForm = false; chooseVehicleEdit = true" value="Cancel"
+            Class="btn btn-secondary">
+		</div>
+      </form>
+    </div>
+  </div>
+</div>

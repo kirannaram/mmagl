@@ -1,0 +1,22 @@
+
+<div class="nav__mobile" *ngIf="navBtn"  id="navModile" (click)="navMobile()"> </div>
+<div class="nav__mobile-close" *ngIf="navClose" id="NavMobileClose" (click)="navMobileClose()">X</div>
+
+<div class="nav navbar navbar-expand-sm" id="nav" [class.nav-mobile] = "navMobileStatus">
+<ng-container *ngFor="let links of SelectedYearCars">
+	<div class="navbar-nav w-100"  >
+		<div class="nav--item nav-item" [class.dropdown]="links.subMenu?.length" [class.active]="pageUrl == links.url " [class.unhighlight]="pageUrl == 'noUrl'" [class.dropdown-toggle]="links.subMenu?.length"  (click)="contentLoad(links.url)" target="_blank" [attr.name]="links.Name">
+			<span class="nav-link" data-toggle="dropdown">
+				<span class="nav__item-icon" ><img src="assets/images/{{links.icon}}-icon.png" class="mr-2">
+				</span>
+				<span class="nav__item-text">{{links.Name}}</span>
+			</span>
+			<ul class="dropdown-menu nav--submenu" *ngIf="links.subMenu?.length">
+				<!--<li class="nav__submenu--open" (click)="subMenuStatus = true; $event.stopPropagation()"><img src="assets/images/menu__arrow-open.png" ></li>
+				<li class="nav__submenu--close" (click)="subMenuStatus = false"><img src="assets/images/menu__arrow-close.png" ></li>-->
+				<li class="nav__submenu--item dropdown-item" *ngFor="let childLinks of links.subMenu" (click)="contentLoad(childLinks.subUrl)">{{childLinks.subLink}}</li>
+			</ul>
+		</div>
+	</div>
+</ng-container>
+</div>

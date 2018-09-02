@@ -1,0 +1,93 @@
+<div class="p-4">
+  <!-- Container-fluid-->
+
+  <div class="flex-row d-flex justify-content-between mb-4">
+    <!-- Other Driver Assist Technologies Heading -->
+    <div class="page-content__page-header">
+      Other Driver Assist Technologies
+    </div>
+    <div class="align-self-center page-content__share-icons">
+      <img src="assets/images/share_icon.jpg" alt id="shareIcon" class="px-3 hidden-sm-up">
+      <img src="assets/images/print_icon.jpg" alt id="printIcon" class="px-3 hidden-sm-down" onclick="printpage()">
+    </div>
+  </div>
+  <!-- Other Driver Assist Technologies Heading End-->
+
+  <!-- Other Driver Assist Technologies Content-->
+
+  <div class="content-block__title">
+    Rear Cross Traffic Alert (RCTA)&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>Rear Cross Traffic Alert (RCTA) notifies the driver of a collision danger if a vehicle is detected approaching from either
+      direction, perpendicular to the reversing vehicle. The system uses radar detection sensors located in the left rear
+      and right rear of the vehicle. The system uses an audible and visual warning to alert the driver.</p>
+  </div>
+
+  <div class="content-block__title">
+    Lane Change Assist (LCA)&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>Lane Change Assist (LCA) notifies the driver of an approaching vehicle in an adjacent lane or lanes. The system uses
+      radar detection sensors located in the left rear and right rear of the vehicle. The sensors illuminate a vehicle icon
+      in the exterior mirror on the side in which the oncoming vehicle is detected. When the driver uses the turn signal
+      indicator to switch lanes, and a vehicle is in their path, the radar detection sensor flashes the vehicle icon only
+      in the exterior mirror on the side the oncoming vehicle is detected.</p>
+  </div>
+
+  <div class="content-block__title">
+    Blind Spot Detection (BSD)&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>Blind Spot Detection (BSD) assists the driver by detecting vehicles located on either side of the vehicle that are hidden
+      from the driver’s view in the exterior mirror. The system uses radar detection sensors located in the left rear and
+      right rear of the vehicle. The sensors illuminate a vehicle icon only in the exterior mirror on the side the oncoming
+      vehicle is detected. When the driver uses the turn signal indicator to switch lanes, and a vehicle is in their path,
+      the radar detection sensor flashes the vehicle icon only in the exterior mirror on the side the oncoming vehicle is
+      detected.</p>
+  </div>
+
+  <div class="content-block__title">
+    Front View Monitor&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>The front view monitor displays an image of the front and front side views of the vehicle on the multi-function display.
+      The system has a camera located in the grille. This system helps eliminate blind spots in front of the vehicle and
+      allows the driver to check the forward direction of travel.</p>
+  </div>
+
+  <div class="content-block__title">
+    Reverse Automatic Braking (RAB) System&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>The Reverse Automatic Braking (RAB) system is designed to assist the driver by detecting objects, to help avoid a possible
+      collision, when the vehicle is moving in a low speed reverse direction. The system will provide automatic vehicle braking,
+      if a obstacle is detected within its range.</p>
+    <p>This system is not a substitute for safe and attentive driving. System effectiveness depends on many factors, such as
+      vehicle maintenance, weather, and road conditions. Excessive build-up of dirt, snow or ice will affect the operation
+      of the RAB system. Always exercise caution and use vehicle mirrors and the Rear-Vision Camera when backing up. See
+      the Owner’s Manual for complete details on system operation and limitations.</p>
+  </div>
+
+  <div class="content-block__title">
+    High Beam Assist (HBA)&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>High Beam Assist automatically switches the headlights between the high and low beams when the headlight switch is in
+      the high beam position. The system works in conjunction with the EyeSight system. The EyeSight system detects a vehicle
+      ahead, or oncoming vehicles, and switches the headlights automatically from high beam to low beam. See the Owner’s
+      Manual for complete details on system operation and limitations.</p>
+  </div>
+
+  <div class="content-block__title">
+    Steering Responsive Headlights (SRH)&nbsp; (if equipped)
+  </div>
+  <div class="content-block__text">
+    <p>The Steering Responsive Headlights (SRH) system aims the headlight beams in the direction of vehicle travel on curved
+      roads to help improve visibility at night. See the Owner’s Manual for complete details on system operation and limitations.</p>
+  </div>
+
+  <!-- Other Driver Assist Technologies Content End-->
+
+</div>
+<!-- Container-fluid End -->

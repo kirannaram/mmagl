@@ -1,0 +1,55 @@
+<div class="row footer ">
+	<div class="col-lg-6 col-sm-12">
+		<div class="footer__column">
+			<span>Connect with Subaru </span>
+			<a href="https://www.facebook.com/subaruofamerica" target="blank">
+				<img src="assets/images/fb-icon.png" height="34" class="px-2" alt=""/>
+			</a>
+			<a href="http://www.youtube.com/user/Subaru" target="_blank">
+				<img src="assets/images/youtube-icon.png"  height="32" class="px-2" alt=""/>
+			</a>
+			<a href="http://www.pinterest.com/subaru/" target="_blank">
+				<img src="assets/images/pinterest-icon.png"  height="34" class="px-2" alt=""/>
+			</a>
+			<a href="http://instagram.com/subaru_usa#" target="_blank">
+				<img src="assets/images/insta-icon.png"  height="34" class="px-2" alt=""/>
+			</a>
+			<a href="https://twitter.com/subaru_usa" target="_blank">
+				<img src="assets/images/twitter-icon.png"  height="34" class="px-2" alt=""/>
+			</a>
+		</div>
+		<div class="footer__column">
+			<span>Get Our Mobile App Here </span>
+			<a href="https://itunes.apple.com/us/app/mysubaru/id1005186680" target="_blank" rel="nofollow">
+			  <img src="assets/images/app-store.png" width="133" height="44" class="ml-2" alt=""/>
+			</a>
+			<a href="https://play.google.com/store/apps/details?id=com.subaru.telematics.app.remote&amp;hl=en" target="_blank" class="mr-1">
+			  <img src="assets/images/play-store.png" width="133" height="44" class="ml-2" alt=""/>
+			</a>
+		</div>
+		
+	</div>
+	<div class="col-lg-6 col-sm-12 text-right mt-sm-2">
+		<div class="row footer__links-row">
+			<div class="col-md-9">
+				<div class="footer__links">
+					<a class="footer__links--item" href="http://www.subaru.com">Subaru.com </a>
+					<a class="footer__links--item" href="https://www.subaru.com/customer-support.html">Customer Support</a>
+					<a class="footer__links--item" href="https://www.subaru.com/company/mysubaru-privacy.html">Privacy Policy</a>
+					<a class="footer__links--item" href="https://www.subaru.com/company/conditions.html">Terms & Conditions</a>
+					<a class="footer__links--item" href="https://www.subaru.com/company/legal-disclaimer.html">Legal Disclaimers</a>
+					<a class="footer__links--item" href="https://www.subaru.com/company/starlink-privacy.html">STARLINKTM Privacy Policy</a>
+					<a class="footer__links--item" href="https://www.subaru.com/company/starlink-terms.html">STARLINKTM Terms & Conditions</a>
+				</div>
+				<div class="footer__rsa">
+					24-Hour Roadside Assistance
+					<span>1-800-261-2155</span>
+				</div>
+					
+			</div>
+			<div class="col-md-3 footer--logo text-center">
+		    	<img src="assets/images/logo-footer.png" width="96" height="72" alt=""/>
+			</div>
+		</div>
+	</div>
+</div>

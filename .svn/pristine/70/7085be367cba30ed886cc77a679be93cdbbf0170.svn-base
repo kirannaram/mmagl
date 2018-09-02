@@ -1,0 +1,74 @@
+
+<div class="container-fluid py-4"><!-- Container-fluid-->
+
+    <div class="flex-row d-flex justify-content-between mb-4"><!-- Lane Departure -->
+        <div class="page-content__page-header">
+            Lane Departure Warning
+        </div>
+        <div class="align-self-center page-content__share-icons">
+            <img src="assets/images/download_icon.jpg" alt="" id="downloadIcon">
+            <img src="assets/images/print_icon.jpg" alt="" id="printIcon" class="px-3 hidden-sm-down">
+            <img src="assets/images/pdf_icon.jpg" alt="" id="pdfIcon" class="hidden-sm-down">
+        </div>
+    </div><!-- Lane Departure End-->
+    
+    <div class="mb-5">
+        <img src="assets/images/ascent/lane_departure.jpg" alt="" class="img-responsive">
+        <p class="pt-3">The switches are located on the overhead console. Consult the Owner’s Manual for more detailed information.</p>
+    </div>
+
+    <!--Lane Departure Warning OFF switch --> 
+    <div class="content-block__title">
+       	Lane Departure Warning OFF switch
+	</div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column align-items-center">
+        	<div class="mb-4">
+            	<img src="assets/images/ascent/lane_departure_off_switch.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="pl-lg-5">
+                <p>Press and hold this switch for two seconds to turn off the Lane Departure Warning and the Lane Sway Warning functions.</p>
+                <p>Press and hold the switch again for two seconds to turn the functions back on.</p>
+            </div>
+        </div>
+    </div>
+    <!--Lane Departure Warning OFF switch End-->
+
+    <!-- Pre-Collision Braking System OFF switch -->
+    <div class="content-block__title">
+       	Pre-Collision Braking System OFF switch
+	</div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column align-items-center">
+        	<div class="mb-4">
+            	<img src="assets/images/ascent/pre_collision_off-switch.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="pl-lg-5">
+                <p>Press and hold this switch for two seconds to turn off the Pre-Collision Braking System and Pre-Collision Throttle Management.</p>
+                <p>Press and hold the switch again for two seconds to turn the systems back on.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-Collision Braking System OFF switch End-->
+
+    <!-- Indicator Lights -->
+    <div class="content-block__title">
+       	Indicator Lights
+	</div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column align-items-center">
+        	<div class="align-self-center mb-4">
+            	<img src="assets/images/ascent/indicator_lights.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="align-self-center pl-lg-5">
+                <p>When these functions are off, the indicator light on the instrument panel illuminates.</p>
+                <ol class="content-block__unordered-list">
+                    <li>Pre-Collision Braking System OFF light</li>
+                    <li>Lane Departure Warning OFF light</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!--Indicator Lights End-->
+
+</div><!-- Container-fluid End -->

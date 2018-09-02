@@ -1,0 +1,11 @@
+{
+  "year": [2016, 2017, 2018, 2019],
+  "model": [
+  	{"carName":"Impreza", "year": ["2016", "2017"] },
+  	{"carName":"Forester", "year": ["2016", "2017"] },
+  	{"carName":"Ascent", "year": ["2016", "2017", "2018", "2019"] },
+  	{"carName":"OutBack", "year": ["2016", "2017"] },
+  	{"carName":"Legacy", "year": ["2017", "2018", "2019"] },
+  	{"carName":"WRX", "year": ["2017","2018", "2019"] }
+	]
+}

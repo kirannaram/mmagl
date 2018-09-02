@@ -1,0 +1,352 @@
+﻿<div class="container-fluid"><!-- Container-fluid-->
+
+    <div class="flex-row d-flex justify-content-between mb-4"><!-- While Operating -->
+        <div class="page-content__page-header">
+            Controls
+        </div>
+        <div class="align-self-center content-block__share-icons">
+            <img src="assets/_images/download_icon.jpg" alt="" id="downloadIcon">
+            <img src="assets/_images/print_icon.jpg" alt="" id="printIcon" class="px-3 hidden-sm-down">
+            <img src="assets/_images/pdf_icon.jpg" alt="" id="pdfIcon" class="hidden-sm-down">
+        </div>
+    </div><!-- While Operating End-->
+
+    <!-- Light Controls -->
+
+    <div class="content-block__title mb-4">
+        Light Controls
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4">
+                <img src="assets/images/ascent/light_controls.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 pl-lg-5 align-self-center">
+                <ol class="content-block__page-unordered-list">
+                    <li>Push forward to change from low beam to high beam. Pull the lever back to center to return to low beam.</li>
+                    <li>Push slightly up for lane change or fully up for right turn signal.</li>
+                    <li>Push slightly down for lane change or fully down for left turn signal.</li>
+                    <li>AUTO (if equipped): The vehicle’s lights are automatically on or off, depending on the level of outside light.</li>
+                    <li>Turns on headlights, instrument panel illumination, parking lights, tail lights and license plate lights.</li>
+                    <li>Rotate to turn on fog lights (if equipped).</li>
+                    <li>Turns on instrument panel lights, tail lights, parking lights and license plate lights.</li>
+                </ol>
+            </div>
+        </div>
+
+    <!-- Light Controls End-->
+
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4">
+                <img src="assets/images/ascent/light_control_adjust.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 align-self-center pl-lg-5">
+                <p>While the light switch is on, rotate the dial downward to dim the instrument panel illumination. Rotate the dial upward to make the illumination brighter. When the dial is fully rotated upward (dots aligned), the instrument panel illumination stays at full brightness.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Windshield Wipers -->
+    <div class="content-block__title">
+        Windshield Wipers
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4">
+                <img src="assets/images/ascent/windshield_wipers.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 align-self-center pl-lg-5">
+                <p>To turn on the wipers, press the wiper control lever down one level for intermittent, two levels for low, or three levels for high speed. Return the lever to the “OFF” position to stop the wipers. For a single wipe, move the lever up. To spray washer fluid, pull and hold the lever toward you. Rotate the dial to adjust the intermittent wiper speed.</p>
+                <p>To operate the rear wiper, rotate the end of the knob upward to the intermittent, continuous, or wash position. When the rear wiper is off, rotate the knob downward to wash and wipe the rear window.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Windshield Wipers End-->
+
+<!-- Rain Sensing Windshield Wipers (if equipped) -->
+    <div class="content-block__title">
+        Rain Sensing Windshield Wipers (if equipped)
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <p>Rotate the dial to adjust the sensitivity of the rain light sensor for wiper control.</p>
+        </div>
+    </div>
+    <!-- Rain Sensing Windshield Wipers (if equipped) End-->
+
+    <!-- Manual Climate Control -->
+    <div class="content-block__title">
+       	Daytime Running lights
+	</div>
+    <div class="content-block__text">
+    <!-- Daytime Running Lights -->
+        <div class="d-flex flex-lg-row flex-column">
+            <p>Daytime running lights are standard on your vehicle. Only the front daytime running lights will be automatically turned on when the engine has started, the parking brake is fully released and the light switch is in the “OFF”, “AUTO” (if equipped) or <img src="assets/images/ascent/light_bright.jpg" alt=""> position. The brightness of the illumination of the high beam headlights is reduced by the daytime running light system. You must always switch on your headlights when it is dark outside by turning the light switch to the <img src="assets/images/ascent/light_switch.jpg" alt=""> position or have the switch in the “AUTO” position.</p>
+        </div>
+    </div>
+    <!-- Daytime Running Lights End-->
+
+<!-- Three-zone Automatic Climate Control -->
+    <div class="content-block__title">
+        Three-Zone Automatic Climate Control
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 mb-4 align-self-center">
+                <img src="assets/images/ascent/automatic_climate_control.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 pl-lg-5">
+                <ol class="content-block__page-unordered-list">
+                    <li>
+                        <strong>Automatic On and Off</strong>
+                        <p>This system automatically controls outlet air temperature, fan speed, air flow distribution, air inlet control, and air conditioner compressor operation. Press “AUTO” to activate. Press “OFF” to turn off the system.</p>
+                    </li>
+                    <li>
+                        <strong>Temperature Control Dial</strong>
+                        <p>Rotate the dial clockwise to increase the temperature or rotate the dial counterclockwise to decrease the temperature. The temperature is displayed digitally on the screen. Separate temperature settings can be adjusted for the driver's side and passenger's side.</p>
+                    </li>
+                    <li>
+                        <strong>SYNC Button</strong>
+                        <p>Press the button to synchronize both the driver’s side and passenger’s side temperatures using the driver’s side temperature control.</p>
+                        
+                    </li>
+                    <h3>Operation in Manual Mode</h3>
+                    <li>
+                        <strong>Air Conditioner Button</strong>
+                        <p>Press the “A/C” button to activate the air conditioning. Press it again to turn off the air conditioning.</p>
+                    </li>
+                    <li>
+                        <strong>MAX Air Conditioner Button</strong>
+                        <p>For quicker cooling, press the MAX A/C button.</p>
+                    </li>
+                    <li>
+                        <strong>Air Flow Mode Selection Button</strong>
+                        <p>Press the button to select the desired air flow mode. The selected air flow mode – either ventilation, bi-level, heat, heat-defrost or defrost – is shown on the display.</p>
+                    </li>
+                    <li>
+                        <strong>Fan Speed Control Buttons</strong>
+                        <p>Press the fan speed control buttons to select the desired fan speed.</p>
+                    </li>
+                    <li>
+                        <strong>Recirculated/Outside Air Button</strong>
+                        <p>Press the air inlet selection button to prevent outside air from being drawn into the passenger compartment. Press the button again to allow outside air into the compartment. TO PREVENT WINDSHIELD FOGGING, DO NOT REMAIN IN THE RECIRCULATED MODE FOR AN EXTENDED PERIOD OF TIME.</p>
+                    </li>
+                    <li>
+                        <strong>Defroster Button</strong>
+                        <p>Press the button to defrost or dehumidify the windshield and front door windows.</p>
+                    </li>
+                    <li>
+                        <strong>Rear Window Defogger Button</strong>
+                        <p>Press the button to turn on the defogger. It will automatically shut off after about 15 minutes. If the window clears before that time, you can press the button again to turn it off. If equipped, the outside mirrir defogger and winshield wiper deicer will also activate.</p>
+                    </li>
+                    <li>
+                        <strong>Rear Climate Control Button</strong>
+                        <p>Press to operate the rear climate control by the front climate control panel. If equipped, press and hold to lock the rear climate control. The lock indicator will illuminate on the front and rear climate control panels.</p>
+                    </li>
+                    <li>
+                        <strong>Rear Climate On and Off Button</strong>
+                        <p>Press to turn off the rear climate control system.</p>
+                    </li>                                        
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Dual Zone Automatic Climate Control System (if equipped) End-->
+
+<!-- Rear Climate Control Panel (if equipped) -->
+    <div class="content-block__title">
+        Rear Climate Control Panel (if equipped)
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 mb-4 align-self-center">
+                <img src="assets/images/ascent/rear_climate_control_panel.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 pl-lg-5">
+                <ol class="content-block__page-unordered-list">
+                    <li>
+                        <strong>Temperature Control Button</strong>
+                        <p>Press the temperature control button to set the preferred temperature.</p>
+                    </li>
+                    <li>
+                        <strong>Fan Speed Control Button</strong>
+                        <p>Select the preferred fan speed by pressing the fan speed control button.</p>
+                    </li>
+                    <li>
+                        <strong>On/Off Button</strong>
+                        <p>Press to turn the climate control system on or off.</p>
+                    </li>
+                    <li>
+                        <strong>Air Flow Mode Selection Button</strong>
+                        <p>Press the “MODE” button to select the desired air flow mode. The selected air flow mode – either ventilation, heat or bi-level – is shown on display.</p>
+                    </li>
+                    <li>
+                        <strong>Automatic On and Off Button</strong>
+                        <p>This system automatically controls outlet air temperature, fan speed, air flow distribution, air inlet control, and air conditioner compressor operation. Press “AUTO” to activate. Press “OFF” to turn off the system.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Rear Climate Control Panel (if equipped) END-->
+
+    <!-- Power Moonroof -->
+
+    <div class="content-block__title">
+        Power Moonroof (if equipped)
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 mb-4">
+                <img src="assets/images/ascent/power_moonroof.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 align-self-center pl-lg-5">
+                <p>To open or close the sunshade, slide and hold the switch toward the open <span class="content-block__page-text-border-radius">3</span> or close <span class="content-block__page-text-border-radius">4</span> position. Press and hold the switch to tilt or lower the moonroof. Slide and <span class="content-block__page-text-border-radius">1</span> the switch to lower the moonroof. Slide and hold the switch to the open position <span class="content-block__page-text-border-radius">1</span> to open the moonroof most of the way; slide it again to fully open it. Slide the switch to the closed position <span class="content-block__page-text-border-radius">2</span> to close the moonroof.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Power Moonroof End-->
+
+    <!-- HomeLink 5 Accessory Mirror -->
+    <div class="content-block__title">
+        HomeLink&reg; 5 Accessory Mirror (if equipped)
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 align-self-center mb-4">
+                <img src="assets/images/ascent/accessory_mirror.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 align-self-center pl-lg-5">
+                <p>The HomeLink 5 accessory mirror provides three buttons to replace up to three hand-held radio frequency remotes used to activate devices such as garage door openers, gate openers, entry door locks, security systems and home lighting. Please see your Owner’s Manual for programming instructions or visit <a href="https://www.subaru.com/homelink" target="https://www.subaru.com/homelink"><strong>www.subaru.com/homelink</strong></a> to view a how-to video.</p>
+            </div>
+        </div>
+    </div>
+    <!-- HomeLink 5 Accessory Mirror End-->
+
+    <!-- Smart Rearview Mirror (if equipped) -->
+    <div class="content-block__title">
+        Smart Rearview Mirror (if equipped)
+    </div>
+    <div class="content-block__text">
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 align-self-center mb-4">
+                <img src="assets/images/ascent/smart_rearview_mirror.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 align-self-center pl-lg-5">
+                <p>Pull the mode lever toward you to show the image from the camera that is located on the rear gate window. Push the mode lever away from you to use as a normal mirror.                    
+                </p>                
+            </div>
+    </div>
+    <!-- Smart Rearview Mirror (if equipped) End -->
+
+    <!-- Instrument Panel Switches -->
+    <div class="content-block__title" id="youridhere">
+        Instrument Panel Switches (lower left)
+    </div>
+    <div class="content-block__text">       
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 align-self-center mb-4">
+                <img src="assets/images/ascent/instrument_panel_switches.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 align-self-center pl-lg-5">
+                <p>Please refer to your Owner’s Manual for details on these switches.</p>
+                <ol class="content-block__page-unordered-list">
+                    <li><strong>Power rear gate switch (if equipped)</strong></li>
+                    <li><strong>Power rear gate memory switch (if equipped)</strong></li>
+                    <li><strong>Vehicle Dynamics Control OFF switch</strong></li>
+                    <li><strong>Blind Spot Detection/Rear Cross Traffic Alert OFF switch (if equipped)</strong></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Instrument Panel Switches End-->
+
+    <!-- Power Rear Gate (if equipped) -->
+    <div class="content-block__title" >
+        Power Rear Gate (if equipped)
+    </div>
+    <div class="content-block__text">       
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 align-self-center mb-4">
+                <img src="assets/images/ascent/power_rear_gate.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 align-self-center pl-lg-5">
+                <p>To open the rear gate from outside the vehicle, unlock the vehicle or have the key fob with you. Then press the rear gate opener button on the underside trim near the license plate. To close the rear gate from outside the vehicle, briefly press the button on the inside edge of the rear gate.
+            </div>
+        </div>
+    </div>
+
+    <!-- Power Rear Gate (if equipped) End-->
+
+
+    <!-- Steering Wheel Audio Controls -->
+    <div class="content-block__title mb-4" id ="steeringWheel">
+        Steering Wheel Audio Controls (if equipped)
+    </div>
+    <div class="content-block__text">    
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4 align-self-center text-center">
+                <img src="assets/images/ascent/steering_wheel_audio_controls.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 align-self-center pl-lg-5">
+                <ol class="content-block__page-unordered-list">
+                    <li>With any of the radio modes selected, press the left or right arrow button to skip through your presets. In CD mode, press the buttons to skip forward or back a track.</li>
+                    <li>Press the button to select the desired audio mode –FM, AM, SAT, CD, AUX, MEDIA.</li>
+                    <li>Push the switch up (+) to increase volume or down (–) to decrease volume.</li>
+                    <li>Talk switch; please refer to the “Bluetooth audio” section in your Owner’s Manual.</li>                            
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Steering Wheel Audio Controls End-->
+
+    <!-- Auxiliary Input Jack -->
+    <div class="content-block__title mb-4">
+        Auxiliary Input Jack
+    </div>
+    <div class="content-block__text">        
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4 text-center">
+                <img src="assets/images/ascent/auxiliary_input_jack.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 pl-lg-5">
+                <p>The 3.5mm auxiliary input jack is located in the front of the center console. You can connect a portable music player to the auxiliary jack and hear the music stored on it through the vehicle speakers. Press the “SOURCE” button located on the audio system to select the auxiliary mode.</p>
+                <div class="content-block__page-title mb-4">
+                    USB Port
+                </div>
+                <p>The USB port(s) is/are located in the front of the center console. You can connect a USB-equipped portable music player to the USB port and hear the music stored on it through the vehicle speakers. Press the “SOURCE” button located on the audio system repeatedly until the USB mode is selected.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Auxiliary Input Jack End-->
+
+    <!-- Cruise Control -->
+    <div class="content-block__title">
+        Cruise Control
+    </div>
+    <div class="content-block__text">         
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4 text-center">
+                <img src="assets/images/ascent/cruise_control.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 pl-lg-5">
+                <ol class="content-block__page-unordered-list">
+                    <li>To activate the cruise control, press the <img src="assets/images/ascent/cruise_button.jpg" alt=""> button. The indicator light on the instrument panel will turn on. To deactivate cruise control, press the <img src="assets/images/ascent/cruise_button.jpg" alt=""> button again.</li>
+                    <li>To resume your speed after canceling, push the switch to the “RES” side.</li>
+                    <li>Press the accelerator pedal until your vehicle reaches the desired speed. Push the switch to the “SET” side and release. Ease off the accelerator pedal. Your vehicle will maintain the desired speed.</li>
+                    <li>To cancel the cruise control, push the brake pedal or press the “CANCEL” button. If you have a manual transmission, you can push in the clutch pedal.</li>
+                </ol>
+                
+                <p class="content-block__page-sub-title mb-2">Increase Speed</p>
+                <p>Push up the “RES/SET” switch to the “RES” side; hold until your vehicle reaches the desired speed and release. To increase speed using the accelerator pedal, press the pedal until you reach the desired speed. Push down the “RES/SET” switch to the “SET” side to set the speed.</p>
+
+                <p class="content-block__page-sub-title mb-2">Decrease Speed</p>
+                <p>Push down the “RES/SET” switch to the “SET” side; hold until your vehicle slows to the desired speed and release. To decrease the speed using the brake pedal, press the pedal to release cruise control temporarily. When the speed decreases to the desired speed, push down the “RES/SET” switch to the “SET” side to set the speed.</p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Cruise Control End-->
+
+</div><!-- Container-fluid End -->

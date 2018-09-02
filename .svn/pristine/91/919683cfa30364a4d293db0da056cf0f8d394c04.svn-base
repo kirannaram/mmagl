@@ -1,0 +1,102 @@
+import { Component, OnInit, Input, Renderer2, Inject } from '@angular/core';
+import {DOCUMENT} from '@angular/platform-browser';
+import {HttpService } from '../http.service';
+import {Location} from '@angular/common';
+
+@Component({
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
+})
+  
+export class MenuComponent implements OnInit {
+  
+  constructor(private location: Location, private httpCalls: HttpService, private renderer: Renderer2, @Inject(DOCUMENT) private document: any) {
+    
+   };
+  menuLinks: string [];
+  formYr: string;
+  formCar: string;
+  SelectedYearCars = [];
+  subMenuStatus : boolean;
+  navMobileStatus: boolean;
+  navBtn: boolean;
+  navClose : boolean;
+  pageUrl : any;
+
+   ngOnInit() {
+    this.navMobileStatus = false;
+    this.subMenuStatus = false;
+    this.navBtn = true;
+    this.pageUrl = 'noUrl'
+   }
+  getMenuInfo(event) {
+    this.formYr = event.caryr;
+    this.formCar = event.carmdl;
+    var sectionNamescroll = event.sectionName;
+    this.httpCalls.menuDetails().subscribe(
+      menuData => {
+        this.SelectedYearCars = []
+        this.menuLinks = menuData[this.formCar] as string [];
+         for (var m = 0; m<=menuData[this.formCar].length-1; m++) {
+           var selectedYearMenu = menuData[this.formCar][m].year.indexOf(this.formYr) > -1;
+           if(selectedYearMenu == true) {
+             this.SelectedYearCars.push(menuData[this.formCar][m]);
+           }
+        }
+        var initialPageName = [];
+        
+        var initialPage = this.httpCalls;
+        var intPgCar = this.formCar;
+        if(event.length == "0")
+        {
+          initialPageName = event.pageName;
+        }
+        else{
+          initialPageName = menuData[this.formCar][0].initialPage;
+        }
+        var pathUpdate = intPgCar+"/"+this.formYr+"/"+initialPageName;
+        this.location.go( pathUpdate );
+        initialPage.get("assets/content/"+intPgCar+"/"+initialPageName+".html", function(html_string) {
+          document.getElementById('contentPlaceHolder').innerHTML = html_string;
+          if(sectionNamescroll != "undefined")
+          {
+            document.getElementById(sectionNamescroll).scrollIntoView();
+          }
+          
+       });
+      }
+    );
+  }
+
+  navMobile(){
+    this.navMobileStatus = true;
+    this.navClose = true;
+    this.navBtn = false;
+  }
+
+  navMobileClose() {
+    this.navBtn = true;
+    this.navClose = false;
+    this.navMobileStatus = false;
+    this.subMenuStatus = false;
+  }
+  contentLoad(e) {
+    var selectedCarYear = this.formYr;
+
+    var pageLoad = this.httpCalls;
+    var carModel = this.formCar;
+
+    this.subMenuStatus = true;
+    var pathUpdate = carModel+"/"+this.formYr+"/"+e;
+    if( e != undefined )
+    {
+     this.pageUrl = e;
+     this.location.go( pathUpdate );
+      pageLoad.get("assets/content/"+carModel+"/"+e+".html", function(html_string) {
+      document.getElementById('contentPlaceHolder').innerHTML = html_string;
+         
+     });
+   }
+  };
+}

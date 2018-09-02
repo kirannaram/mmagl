@@ -1,0 +1,268 @@
+/* NAV classes */
+.nav{
+	width: 100%;
+	float: left;
+	transition: all ease-in-out 0.5s;
+	@media (max-width:$screen-sm-max){
+		position: absolute;
+		right: -100%;			
+	}
+}
+.nav-container{
+	width:100%;
+	padding: 10px 0;
+	border-bottom: 1px dotted #D1D1D1;
+}
+.nav--item {
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+	font-size: 14px;
+	border-bottom: 1px dotted #fff;
+	transition: all ease-in-out 0.5s;
+
+	background-repeat: no-repeat;
+	background-position: right;
+
+	@media (max-width:$screen-sm-max){
+		margin-left: 15px;
+	}
+	
+}
+.nav--item.dropdown {
+	background-image: url(../images/menu__dropdown-arrow-active.png);
+}
+.dropdown.open{
+	background-image: url(../images/menu__dropdown-arrow.png);
+}
+.nav__item-icon{
+	display: inline;
+	margin-right: 0.5rem;
+}
+.nav__item-text{
+	display: inline;
+}
+.nav__selected-vehicle {
+	position: relative;
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.nav__selected-vehicle--img{
+	flex-basis: 20%;
+
+	@media (max-width: $screen-sm-max) {
+		text-align: center;
+	}
+}
+.nav__selected-vehicle--img img{
+	width: 40px;
+	border-radius: 8px;
+	border: 3px solid #c5c5c5;
+}
+
+.nav__selected-vehicle--txt{
+	flex-basis: auto;
+	font-weight: bold;
+	font-size: 18px;
+	color: $white;
+}
+.nav__selected-vehicle--edit {
+	width:22px;
+	height: 22px;
+	flex-basis: 10%;
+	background-image: url(../images/edit-vehicle-icon.png);
+	background-repeat: no-repeat;
+}
+
+
+.nav__submenu{
+	display: none;
+	background-color: #c5c5c5;
+    right: -186px;
+    width: 200px;
+    top: 0;
+	padding: 0px;
+	transition-delay: 1s;
+	transition: opacity 1s ease-in-out;
+	@media (max-width: $screen-sm-max) {
+		display: block;
+		opacity: 1;;
+		right: -280px;
+		width: 280px;
+		margin-bottom: 0px;
+		background-color: #5d5c5a;
+	}
+}
+
+.nav__submenu--item {
+	list-style: none;
+	color: #5d5c5b;
+	background-color: #c5c5c5;
+	border-bottom: 1px solid #aaa;
+	padding: 15px;
+	
+	&::before {
+		content: "— ";		
+	}
+	&:hover {
+		background-color: #aaa;
+	}
+
+	@media (max-width: $screen-sm-max){
+		
+	}
+}
+
+.nav-mobile {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	width:280px;
+	right: 0px;
+	top: 0px;
+	background-color: #5d5c5a;
+	z-index: 2;
+
+}
+
+.nav-display {
+	display: block;
+}
+
+.nav-link{
+	display: block;
+	padding: 10px;
+}
+
+
+.nav--submenu{
+	position: relative;
+	width: 100%;
+	padding: 0px;
+    background-color: inherit;
+}
+
+.nav__selected-vehicle--arrow{
+	width: 12px;
+	border-radius: 5px 0 0 5px;
+	background-color: #c5c5c5;
+	position: relative;
+	right: -10px;
+	text-align: right;
+
+
+	img {
+		width: 8px;
+	}
+
+	@media (max-width: $screen-sm-max) {
+		display: none; 
+	}
+}
+
+.nav-collapse {
+	
+	.menu-column{
+		width: 60px;
+	}
+	.content-column{
+		width: 93%;
+	}
+	.nav__selected-vehicle--img{
+		flex-basis: 100%; 
+	}
+
+	.nav__selected-vehicle--arrow {
+
+		text-align: left;
+
+		img {
+			-webkit-transform: rotate(180deg);
+			        transform: rotate(180deg)
+		}
+
+	}
+
+	.nav-link {
+		text-align: center;
+	}
+
+	.nav__item-icon {
+		margin-right: 0;
+	}
+
+	.nav--item.dropdown {
+		background-image: none;
+	}
+	
+}
+
+.nav--hide-text {
+	.nav__selected-vehicle--txt, 
+	.nav__selected-vehicle--edit, 
+	.nav__item-text {
+		display: none;
+	}
+}
+
+.nav__toggle {
+	margin: 0 15px;
+	width: 38px;
+	height: 30px;
+	background-image: url(../images/menu-icon.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	@media (max-width: $screen-sm-max) {
+		display: none;
+	}
+}
+
+
+.nav__mobile {
+	display: none;
+	position: absolute;
+	right: 25px;
+	top: -40px;
+	background-image: url(../images/menu-icon.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float: right;
+	width: 38px;
+	height: 30px;
+
+	@media (max-width: $screen-sm-max) {
+		display: block;
+	}
+}
+
+.nav__mobile-close {
+	display: none;
+	position: absolute;
+	right: 25px;
+	top: -40px;
+	width: 38px;
+	height: 30px;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+	color: #333;
+
+	@media (max-width: $screen-sm-max) {
+		display: block;
+	}
+}
+.nav--item.nav-item.open {
+    background-color: #0099ff;
+}
+
+.nav-item.active{
+	background-color: #0099ff;
+}
+.nav-item.unhighlight {
+	background-color: none;
+}

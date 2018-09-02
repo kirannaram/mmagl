@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="home" id="mainContainer">
+<app-header></app-header>
+<div class="page-content" id="contentContainer">
+	<div class="menu-column" id="menuColumn">
+		<app-home (homeToMenu)="menu.getMenuInfo($event)" (urlToMenu)="menu.contentLoad($event)"></app-home>
+		<app-menu #menu ></app-menu>
+	</div>
+	<div class="content-column" id="contentPlaceHolder" ng-include="templateURL">
+
+	</div>
+</div>
+<app-footer >
+
+	
+</app-footer>
+
+</div>

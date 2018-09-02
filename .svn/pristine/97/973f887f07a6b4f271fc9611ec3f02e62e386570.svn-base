@@ -1,0 +1,31 @@
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+
+@Component({
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
+})
+export class HeaderComponent implements OnInit {
+
+  constructor() { }
+  menuCollapsed = false;
+
+  
+  ngOnInit() {
+  }
+
+  menuCollapse() {
+    if(this.menuCollapsed == false) {
+      document.getElementById("contentContainer").classList.add("nav-collapse","nav--hide-text");
+      this.menuCollapsed = true;
+    } else {
+      document.getElementById("contentContainer").classList.remove("nav-collapse");
+      setTimeout(function(){ 
+        document.getElementById("contentContainer").classList.remove("nav--hide-text");
+      }, 500);
+      this.menuCollapsed = false;
+    }
+  }
+
+ 
+}

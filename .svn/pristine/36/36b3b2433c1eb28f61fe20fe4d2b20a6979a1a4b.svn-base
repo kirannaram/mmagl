@@ -1,0 +1,114 @@
+import { Component, OnInit, Input, Output, EventEmitter, ViewChild} from '@angular/core';
+import { HttpService } from '../http.service';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent implements OnInit {
+
+  constructor(private httpCalls:HttpService) { }
+  yearData: string [];
+  carInfoData: string [];
+  selectedYearCars: string [];
+  @Output() homeToMenu: EventEmitter<any> = new EventEmitter();
+  @Output() urlToMenu: EventEmitter<any> = new EventEmitter();
+  homeYear : string;
+  homeModel : string;
+  carName: string;
+  selectedModel = [];
+  menuCollapsed = false;
+  carInfo : string [];
+  redirectPageUrl : any;
+  redirectPageArray = [];
+  chooseVehicleEdit = false;
+  chooseVehicleForm = true;
+  chooseVehicleCancel = false;
+
+
+  ngOnInit() {
+      this.httpCalls.carYearModel().subscribe(
+      carInfo => {
+        this.yearData = carInfo["year"] as string [];
+        this.carInfoData = carInfo["model"] as string [];
+
+      }
+    );
+  }
+ 
+  getcarInfo(redirectPageData: any) {
+    
+
+    if(typeof redirectPageData == "string")
+    {
+
+      this.redirectPageUrl = redirectPageData.split("/");
+      
+      this.homeModel = this.redirectPageUrl[1];
+
+      this.httpCalls.carYearModel().subscribe(
+        carInfo => {
+          //console.log(carInfo["model"].length)
+          for(var carData = 0; carData<=carInfo["model"].length; carData++){
+            if(this.homeModel == carInfo["model"][carData].carName){
+              this.homeYear = this.redirectPageUrl[2];
+              this.redirectPageArray["caryr"] = this.redirectPageUrl[2];
+              this.redirectPageArray["carmdl"] = this.redirectPageUrl[1];
+              this.redirectPageArray["pageName"] = this.redirectPageUrl[3];
+              if(this.redirectPageUrl.length){
+                this.redirectPageArray["sectionName"] = this.redirectPageUrl[4];
+              }
+                this.homeToMenu.emit(this.redirectPageArray);
+                this.urlToMenu.emit(this.homeModel);
+              
+              if(this.redirectPageArray["carmdl"] != "dist"){
+                this.pageViewChange();
+              }
+            }
+          }
+  
+        }
+      );
+      
+      //this.redirectPageArray.push({caryr: this.redirectPageUrl[2], carmdl: this.redirectPageUrl[1]});
+      
+    }
+    else {
+      this.homeYear = redirectPageData.caryr;
+      this.homeModel = redirectPageData.carmdl;
+      
+      this.homeToMenu.emit(redirectPageData);
+
+      this.pageViewChange();
+    }
+    
+  }
+
+  pageViewChange(){
+    document.getElementById("mainContainer").classList.remove("home");
+    document.getElementById("mainContainer").classList.add("content");
+    this.chooseVehicleForm = false;
+    this.chooseVehicleEdit = true;
+
+  }
+
+  yearChange($event) {
+   var selectedYear = $event;
+    this.selectedModel = [];
+    for(var j = 0; j<=this.carInfoData.length-1; j++) {
+
+      var seletedModelStatus = this.carInfoData[j]["year"].indexOf(selectedYear) > -1;
+      if(seletedModelStatus == true){
+        var caritem = this.carInfoData[j]["carName"];
+        this.selectedModel.push(caritem);
+      }
+    }
+  };
+
+  vehicleSelection(){
+    document.getElementById("selectedVehicle").style.display = "none";
+    document.getElementById("chooseVehicle").style.display = "block";
+  }
+
+}

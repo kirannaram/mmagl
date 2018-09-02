@@ -1,0 +1,599 @@
+{
+
+  "Impreza": [{
+      "Name": "Getting Started",
+      "year": ["2016", "2017"],
+      "icon": "gettingStarted",
+      "subMenu": [{
+          "subLink": "Remote Key",
+          "subUrl": "remoteKey"
+        },
+        {
+          "subLink": "Seats",
+          "subUrl": "seats"
+        }
+      ],
+      "initialPage": "remoteKey"
+    },
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "icon": "instrumentPanel",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "icon": "gauges",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "icon": "personalize",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "icon": "controls",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "icon": "whileOperating",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safetyInCaseOfEmergency",
+      "icon": "safetyInCaseOfEmergency",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "starlink",
+      "icon": "starlink",
+      "year": ["2017"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "safetyInCaseOfEmergency",
+      "icon": "safetyInCaseOfEmergency",
+      "year": ["2018"]
+
+    },
+    {
+      "Name": "Bluetooth",
+      "url": "bluetooth",
+      "icon": "bluetooth",
+      "year": ["2017"]
+
+    },
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "icon": "additionalInformation",
+      "year": ["2016", "2017"]
+
+    }
+  ],
+
+  "Forester": [{
+
+      "Name": "Getting Started",
+      "icon": "gettingStarted",
+      "year": ["2016", "2017"],
+      "subMenu": [{
+          "subLink": "Sub Link1"
+        },
+        {
+          "subLink": "Sub Link2"
+        }
+      ],
+      "initialPage": "remoteKey"
+    },
+
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "icon": "instrumentPanel",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "icon": "gauges",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "icon": "personalize",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "icon": "controls",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "icon": "whileOperating",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safetyInCaseOfEmergency",
+      "icon": "safetyInCaseOfEmergency",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "starlink",
+      "icon": "starlink",
+      "year": ["2017"]
+
+    },
+    {
+      "Name": "Bluetooth",
+      "url": "bluetooth",
+      "icon": "bluetooth",
+      "year": ["2017"]
+
+    },
+
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "icon": "additionalInformation",
+      "year": ["2016", "2017"]
+
+    }
+
+
+  ],
+
+  "Ascent": [
+
+    {
+
+      "Name": "Getting Started",
+      "icon": "gettingStarted",
+      "year": ["2016", "2017", "2018", "2019"],
+      "subMenu": [{
+          "subLink": "Remote Key",
+          "subUrl": "remoteKeylessEntry"
+        },
+        {
+          "subLink": "Seating",
+          "subUrl": "seating"
+        }
+      ],
+      "initialPage": "remoteKeylessEntry"
+    },
+
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "icon": "instrumentPanel",
+      "year": ["2016", "2017", "2018", "2019"]
+    },
+
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "icon": "gauges",
+      "year": ["2016", "2017", "2018", "2019"]
+    },
+
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "icon": "personalize",
+      "year": ["2016", "2017", "2018", "2019"]
+    },
+
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "icon": "controls",
+      "year": ["2016", "2017", "2018", "2019"]
+    },
+
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "icon": "whileOperating",
+      "year": ["2016", "2017", "2018", "2019"]
+    },
+
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safety",
+      "icon": "safetyInCaseOfEmergency",
+      "year": ["2016", "2017", "2018", "2019"]
+
+    },
+
+
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "icon": "additionalInformation",
+      "year": ["2016", "2017"],
+      "subMenu": [{
+        "subLink": "Engine Compartment",
+        "subUrl": "engineCompartment"
+      }]
+
+    },
+    {
+      "Name": "Additional Information",
+      "icon": "additionalInformation",
+      "year": ["2018", "2019"],
+      "subMenu": [{
+          "subLink": "Additional Information",
+          "subUrl": "additionalInformation"
+        },
+        {
+          "subLink": "Engine Compartment",
+          "subUrl": "engineCompartment"
+        }
+      ]
+
+    },
+    {
+      "Name": "EyeSight",
+      "icon": "eyeSight",
+      "year": ["2018", "2019"],
+      "subMenu": [{
+          "subLink": "EyeSight & it's Functions",
+          "subUrl": "eyeSight/eyeSight"
+        },
+        {
+          "subLink": "EyeSight Operation",
+          "subUrl": "eyeSight/eyesightOperation"
+        },
+        {
+          "subLink": "Steering Controls",
+          "subUrl": "eyeSight/steeringWheelControls"
+        },
+        {
+          "subLink": "Lane Departure Warning",
+          "subUrl": "eyeSight/laneDeparture"
+        },
+        {
+          "subLink": "EyeSight Limitations",
+          "subUrl": "eyeSight/eyesightLimitations"
+        },
+        {
+          "subLink": "Stereo Color Cameras Precautions",
+          "subUrl": "eyeSight/StereoColor"
+        },
+        {
+          "subLink": "Windshield Glass and Dashboard",
+          "subUrl": "eyeSight/windshieldGlass"
+        }
+      ]
+
+    },
+    {
+      "Name": "Other Driver Assist",
+      "url": "OtherDriverAssistTechnologies",
+      "icon": "OtherDriverAssistTechnologies",
+      "year": ["2018", "2019"]
+
+    }
+
+
+  ],
+
+  "OutBack": [
+
+    {
+      "Name": "Getting Started",
+      "url": "gettingStarted",
+      "icon": "gettingStarted",
+      "year": ["2016", "2017"],
+      "initialPage": "remoteKey"
+    },
+
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "icon": "instrumentPanel",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "icon": "gauges",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "icon": "personalize",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "icon": "controls",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "icon": "whileOperating",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safetyInCaseOfEmergency",
+      "icon": "safetyInCaseOfEmergency",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "starlink",
+      "icon": "starlink",
+      "year": ["2017"]
+
+    },
+    {
+      "Name": "Bluetooth",
+      "url": "bluetooth",
+      "icon": "bluetooth",
+      "year": ["2017"]
+
+    },
+
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "icon": "additionalInformation",
+      "year": ["2016", "2017"]
+
+    }
+
+
+  ],
+  "NewCar": [
+
+    {
+      "Name": "Getting Started",
+      "url": "gettingStarted",
+      "icon": "gettingStarted",
+      "year": ["2016", "2017"],
+      "initialPage": "remoteKey"
+    },
+
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "icon": "instrumentPanel",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "icon": "gauges",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "icon": "personalize",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "icon": "controls",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "icon": "whileOperating",
+      "year": ["2016", "2017"]
+    },
+
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safetyInCaseOfEmergency",
+      "icon": "safetyInCaseOfEmergency",
+      "year": ["2016", "2017"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "starlink",
+      "icon": "starlink",
+      "year": ["2017"]
+
+    },
+    {
+      "Name": "Bluetooth",
+      "url": "bluetooth",
+      "icon": "bluetooth",
+      "year": ["2017"]
+
+    },
+
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "icon": "additionalInformation",
+      "year": ["2016", "2017"]
+
+    }
+
+
+  ],
+  "Legacy": [
+
+    {
+
+      "Name": "Getting Started",
+      "url": "gettingStarted",
+      "year": ["2017", "2018"],
+      "initialPage": "remoteKey"
+    },
+
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safetyInCaseOfEmergency",
+      "year": ["2017", "2018"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "starlink",
+      "year": ["2018"]
+
+    },
+    {
+      "Name": "Bluetooth",
+      "url": "bluetooth",
+      "year": ["2018"]
+
+    },
+
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "year": ["2017", "2018"]
+
+    }
+
+
+  ],
+
+  "WRX": [
+
+    {
+
+      "Name": "Getting Started",
+      "url": "gettingStarted",
+      "year": ["2017", "2018"],
+      "initialPage": "remoteKey"
+    },
+
+    {
+      "Name": "Instrument Panel",
+      "url": "instrumentPanel",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Gauges",
+      "url": "gauges",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Personalize",
+      "url": "personalize",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Controls",
+      "url": "controls",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "While Operating",
+      "url": "whileOperating",
+      "year": ["2017", "2018"]
+    },
+
+    {
+      "Name": "Safety/In Case of Emergency",
+      "url": "safetyinCaseofEmergency",
+      "year": ["2017", "2018"]
+
+    },
+    {
+      "Name": "Starlink",
+      "url": "starlink",
+      "year": ["2018"]
+
+    },
+    {
+      "Name": "Bluetooth",
+      "url": "bluetooth",
+      "year": ["2018"]
+
+    },
+
+    {
+      "Name": "Additional Information",
+      "url": "additionalInformation",
+      "year": ["2017", "2018"]
+
+    }
+
+
+  ]
+}

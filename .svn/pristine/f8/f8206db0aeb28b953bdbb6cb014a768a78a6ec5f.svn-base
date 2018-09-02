@@ -1,0 +1,113 @@
+﻿<div class="p-4">
+  <!-- Container-fluid-->
+
+  <div class="flex-row d-flex justify-content-between mb-4">
+    <!-- Seating Heading -->
+    <div class="page-content__page-header">
+      Safety/In Case of Emergency
+    </div>
+    <div class="align-self-center page-content__share-icons">
+      <img src="assets/images/share_icon.jpg" alt id="shareIcon" class="px-3 hidden-sm-up">
+      <img src="assets/images/print_icon.jpg" alt id="printIcon" class="px-3 hidden-sm-down" onclick="printpage()">
+    </div>
+  </div>
+  <!-- Seating Heading End-->
+
+  <!-- Child Restraint System -->
+  <div class="content-block__text">
+    <p>Second-row bench seat shown. Please refer to your Owner’s Manual for more information on locations.</p>
+    <div class="content-block__title mb-4">
+      Child Restraint System
+    </div>
+
+    <div class="d-flex flex-lg-row flex-column">
+      <div class="flex--basis-30 align-self-center mb-4">
+        <img src="assets/images/ascent/child_restraint_system.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="flex--basis-70 align-self-center pl-lg-5">
+        <p>Your vehicle is equipped with Lower Anchors and Tethers for CHildren (LATCH). For maximum safety, first carefully
+          read the LATCH system instructions from the device manufacturer, as well as the installation instructions in your
+          Owner’s Manual, to properly install the LATCH compatible restraint system. Use the appropriate seatbelts or anchorages
+          provided in your vehicle. Children age 12 and under must properly occupy the rear seat at all times.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Child Restraint System End-->
+
+  <!-- Child Safety Locks -->
+  <div class="content-block__text">
+    <div class="content-block__title mb-4">
+      Child Safety Locks
+    </div>
+
+    <div class="d-flex flex-lg-row flex-column">
+      <div class="flex--basis-30 align-self-center mb-4">
+        <img src="assets/images/ascent/child_safety_locks.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="flex--basis-70 align-self-center pl-lg-5">
+        <p>The child safety locks are located on the inside edges of the rear doors. In the locked position, the rear doors
+          can only be opened from the outside.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Child Safety Locks -->
+
+  <!-- Location of Spare -->
+  <div class="content-block__text">
+    <div class="content-block__title mb-4">
+      Location of Spare Tire and Jack
+    </div>
+
+    <div class="d-flex flex-lg-row flex-column">
+      <div class="flex--basis-30 align-self-center mb-4">
+        <img src="assets/images/ascent/location_of_spare_tire.jpg" alt="" class="img-responsive">
+      </div>
+      <div class="flex--basis-70 align-self-center pl-lg-5">
+        <p>The spare tire is located in the spare tire holder located under the rear of your vehicle. The holder has a hoist
+          mechanism that can lower and raise the spare tire. A jack and other maintenance tools which are used to release
+          the spare tire are stored under the cargo floor.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Location of Spare End -->
+
+  <!-- Emergency Towing -->
+  <div class="content-block__text">
+    <div class="content-block__title mb-4">
+      Emergency Towing Your All-Wheel Drive Vehicle
+    </div>
+
+    <div class="d-flex flex-lg-row flex-column">
+      <div class="align-self-center">
+        <p>Since Subaru Symmetrical All-Wheel Drive distributes engine power to all four wheels, improper towing will severely
+          damage your AWD system. A flatbed truck is the only recommended way to properly transport your AWD vehicle. If
+          towing is necessary, it is best done by your Subaru Retailer or a commercial towing service.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Emergency Towing End-->
+
+  <!-- Subaru Roadside Assistance -->
+  <div class="content-block__text">
+    <div class="content-block__title mb-4">
+      Subaru Roadside Assistance
+    </div>
+
+    <div class="d-flex flex-lg-row flex-column">
+      <div class="align-self-center">
+        <p>Subaru Roadside Assistance is free and standard on your vehicle. Coverage is automatic; there are no forms to complete.
+          Subaru Roadside Assistance is available anytime during the 3-year/36,000-mile Subaru Limited Warranty, whichever
+          comes first.* A Subaru Roadside Assistance decal has been affixed to the driver’s door window.</p>
+        <p>Subaru Roadside Assistance: 1-800-261-2155</p>
+        <p class="page-content__page-sub-title">Exclusions</p>
+        <p>Specifically excluded from Subaru Roadside Assistance coverage are service requests or claims resulting from: accidents,
+          vandalism, acts of God, violation of any laws, misuse and abuse, or vehicle modifications not recommended by the
+          manufacturer.</p>
+        <p>*See your Retailer for details.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Subaru Roadside Assistance End-->
+
+</div>
+<!-- Container-fluid End -->

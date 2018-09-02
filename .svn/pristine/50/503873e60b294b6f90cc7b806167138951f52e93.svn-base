@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Subaru&trade; User Manuals</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               
+        <!--<link rel="shortcut icon" href="assets/_img/favicon.ico" />
+        <link rel="icon" href="assets/_img/favicon.ico" type="image/ico" />
+        <link type="text/css" rel="stylesheet" href="assets/_lib/font-awesome/css/font-awesome.min.css">-->
+        <link type="text/css" rel="stylesheet" href="assets/_lib/bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/_css/styles.css">
+
+        <script type="text/javascript" src="assets/_lib/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="assets/_lib/tether.min.js"></script>
+        <script type="text/javascript" src="assets/_lib/bootstrap/bootstrap.min.js"></script>
+    </head>
+    <body>
+    	<div class="container-fluid"><!-- Container-fluid-->
+
+    		<div class="page-content"><!-- Content Block-->
+
+                <div class="flex-row d-flex justify-content-between mb-3"><!-- While Operating -->
+                    <div class="page-content__page-header m-0">
+                        <h1 class="mb-0">While Operating</h1>
+                    </div>
+                    <div class="align-self-center ">
+                        <img src="assets/_img/download_icon.jpg" alt="">
+                        <img src="assets/_img/print_icon.jpg" alt="" class="px-3 hidden-sm-down">
+                        <img src="assets/_img/pdf_icon.jpg" alt="" class="hidden-sm-down">
+                    </div>
+                </div><!-- While Operating End-->
+
+                <!-- Electronic Parking Brake -->
+                <div class="content-block__title mb-3">
+                   	<h2 class="mb-0">Electronic Parking Brake</h2>
+        		</div>
+
+                <div class="d-flex flex-lg-row flex-column mb-3">
+                    <div class="flex--basis-10 align-self-center">
+                        <img src="assets/_img/ASCENT/x-mode.jpg" alt="" class="img-fluid">                           
+                    </div>
+	                <div class="flex--basis-90">
+	                    <p class="pt-3 pt-lg-0 pl-lg-4">To apply, push the brake pedal and pull up the parking brake switch. The brake system warning light on the instrument panel and the indicator light on the parking brake switch will illuminate.</p>
+                        <p class="pt-lg-0 pl-lg-4">To release, make sure all doors are closed and your seatbelt is fastened, then gently push the accelerator pedal. Or, while the ignition switch is in the ON position and the brake pedal is pushed in, push down the parking brake switch.</p>
+                        
+                        <div class="content-block__title ml-0 ml-lg-4">
+                            <h2 class="mb-0">X-MODE</h2>
+                        </div>
+                        <p class="mb-0 pt-3 pl-lg-4">X-MODE® is the integrated control system of the engine, AWD and Vehicle Dynamics Control system. Press the X-MODE button to activate. Press it again to deactivate. Please refer to your Owner’s Manual for operational parameters and details about this feature.
+                        </p>
+	                </div>
+                </div>
+                <!-- Electronic Parking Brake End-->
+
+                <!-- Auto Vehicle Hold Function -->
+                <div class="content-block__title mb-3">
+                   	<h2 class="mb-0">Auto Vehicle Hold Function</h2>
+        		</div>
+
+                <div class="d-flex flex-lg-row flex-column">	                
+                    <p>The Auto Vehicle Hold function will automatically keep the vehicle stopped even after releasing the brake pedal when the vehicle is stopped, such as at traffic signals. To activate, press the Auto Vehicle Hold switch. The Auto Vehicle Hold ON indicator light on the instrument panel will illuminate. To deactivate, press the switch again. While the Auto Vehicle Hold function is operating, the Auto Vehicle Hold operation indicator light on the instrument panel will illuminate.</p>
+                </div>
+                <!-- Auto Vehicle Hold Function Ends -->
+
+                <!-- Paddle Shift Control Switches -->
+                <div class="content-block__title mb-3">
+                   	<h2 class="mb-0">Paddle Shift Control Switches</h2>
+        		</div>
+
+                <div class="d-flex flex-lg-row flex-column mb-3">
+                	<div class="flex--basis-20 align-self-center">
+                    	<img src="assets/_img/ASCENT/fuel_filler.jpg" alt="" class="img-fluid">                           
+                    </div>
+	                <div class="flex--basis-80 align-self-center">
+	                    <ul class="content-block__unordered-list mt-3 mt-lg-0">
+                            <li>Temporary use: Even when the selector is in the “D” (Drive) position, you can temporarily shift the gear by pulling the “+” or “–” paddle shift control switch. The transmission will automatically switch back to Normal Mode.</li>
+                            <li>When the selector lever is in Manual Mode, shift to the next higher gear by pulling the “+” paddle shift control switch on the steering wheel. Pull the “–” paddle shift control switch to shift into the next lower gear.</li>
+                        </ul>
+	                </div>
+                </div>
+                <!-- Paddle Shift Control Switches End -->
+
+                <!-- Manual Shifting Operation -->
+                <div class="content-block__title mb-3">
+                   	<h2 class="mb-0">Manual Shifting Operation</h2>
+        		</div>
+
+                <div class="d-flex flex-lg-row flex-column">
+	                <p>Arrow-shaped lights in the center of the instrument panel show whether an upshift is possible and whether a downshift is possible.</p>
+                </div>
+                <!-- Manual Shifting Operation End--> 
+
+                <!-- Electronic Parking Brake -->
+                <div class="content-block__title mb-3">
+                    <h2 class="mb-0">Automatic Transmission Shift Mode</h2>
+                </div>
+
+                <div class="d-flex flex-lg-row flex-column">
+                    <div class="flex--basis-20 align-self-center">
+                        <img src="assets/_img/ASCENT/automatic_transmission_shift_mode.jpg" alt="" class="img-fluid">                           
+                    </div>
+                    <div class="flex--basis-80 pl-lg-4">
+                        <p class="pt-3 pt-lg-0">The Continuously Variable Transmission (CVT) gives you ultimate control with two different driving modes: Normal Mode and Manual Mode.</p>
+                        <h5>Normal Mode</h5>
+                        <p>When the selector lever is in the “D” (Drive) position, the transmission is in Normal shift mode. The shift position indicator on the instrument panel shows “D” and the transmission automatically shifts into a suitable forward gear.</p>
+                        <h5>Manual Mode</h5>
+                        <p>In Manual Mode, you select the desired gear position to obtain necessary acceleration and engine braking. Moving the selector lever left into the manual gate 1 from the “D” (Drive) position causes the transmission to change into Manual Mode. To shift, use the paddle shift control switches. The shift position indicator shows the selected gear position.</p>
+                    </div>
+                </div>
+                <!-- Electronic Parking Brake End-->               
+
+    		</div><!-- Content Block End-->
+
+    	</div><!-- Container-fluid End -->
+    </body>
+</html>

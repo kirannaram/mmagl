@@ -1,0 +1,108 @@
+import { Component, OnInit, Output, EventEmitter } from "@angular/core";
+import { HttpService } from "../http.service";
+
+import {FormControl} from '@angular/forms';
+import { INgxSelectOption } from "../../lib/ngx-select/ngx-select.interfaces";
+
+@Component({
+  selector: "app-home",
+  templateUrl: "./home.component.html",
+  styleUrls: ["./home.component.css"]
+})
+export class HomeComponent implements OnInit {
+  constructor(private httpCalls: HttpService) {}
+  yearData: string[];
+  carInfoData: string[];
+  selectedYearCars: string[];
+  @Output() homeToMenu: EventEmitter<any> = new EventEmitter();
+  @Output() urlToMenu: EventEmitter<any> = new EventEmitter();
+  homeYear: string;
+  homeModel: string;
+  carName: string;
+  selectedModel = [];
+  menuCollapsed = false;
+  carInfo: string[];
+  redirectPageURL = [];
+  redirectPageUrlSplit: any;
+  redirectPageForm = [];
+  chooseVehicleEdit = false;
+  chooseVehicleForm = true;
+  chooseVehicleCancel = false;
+ngxValue2: any;
+ngxValue1: any;
+
+public ngxControl = new FormControl();
+public ngxControl2 = new FormControl();
+
+  ngOnInit() {
+    this.httpCalls.carYearModel().subscribe(carInfo => {
+      this.yearData = carInfo["year"] as string[];
+      this.carInfoData = carInfo["model"] as string[];
+    });
+  }
+
+  getCarInfoForm(FormYear, FormModel){
+    this.homeYear = FormYear;
+    this.homeModel = FormModel;
+    this.redirectPageForm["caryr"] = FormYear.toString();
+    this.redirectPageForm["carmdl"] = FormModel;
+    this.homeToMenu.emit(this.redirectPageForm); 
+    this.pageViewChange();
+  }
+  getcarInfo(redirectPageData: any) {
+     console.log("data is her "+redirectPageData)
+    if (typeof redirectPageData == "string") {
+      this.redirectPageUrlSplit = redirectPageData.split("/");
+
+      this.homeModel = this.redirectPageUrlSplit[1];
+
+      this.httpCalls.carYearModel().subscribe(carInfo => {
+        //console.log(carInfo["model"].length)
+        for (var carData = 0; carData <= carInfo["model"].length; carData++) {
+          if (this.homeModel == carInfo["model"][carData].carName) {
+            this.homeYear = this.redirectPageUrlSplit[2];
+            this.redirectPageURL["caryr"] = this.redirectPageUrlSplit[2];
+            this.redirectPageURL["carmdl"] = this.redirectPageUrlSplit[1];
+            this.redirectPageURL["pageName"] = this.redirectPageUrlSplit[3];
+            if (this.redirectPageUrlSplit.length) {
+              this.redirectPageURL["sectionName"] = this.redirectPageUrlSplit[4];
+            }
+            this.homeToMenu.emit(this.redirectPageURL);
+            this.urlToMenu.emit(this.homeModel);
+            this.pageViewChange();
+          } else {
+          }
+        }
+      });
+
+      //this.redirectPageArray.push({caryr: this.redirectPageUrlSplit[2], carmdl: this.redirectPageUrlSplit[1]});
+    } else {
+      
+    }
+  }
+
+  pageViewChange() {
+    document.getElementById("mainContainer").classList.remove("home");
+    document.getElementById("mainContainer").classList.add("content");
+    this.chooseVehicleForm = false;
+    this.chooseVehicleEdit = true;
+  }
+
+  yearChange($event) {
+    var selectedYear = $event.toString();
+    this.selectedModel = [];
+    for (var j = 0; j <= this.carInfoData.length - 1; j++) {
+      var seletedModelStatus =
+        this.carInfoData[j]["year"].indexOf(selectedYear) > -1;
+      if (seletedModelStatus == true) {
+        var caritem = this.carInfoData[j]["carName"];
+        this.selectedModel.push(caritem);
+      }
+    }
+  }
+
+  vehicleSelection() {
+    document.getElementById("selectedVehicle").style.display = "none";
+    document.getElementById("chooseVehicle").style.display = "block";
+  }
+}

@@ -1,0 +1,90 @@
+/***************************************
+           PAGE-CONTENT
+***************************************/
+.page-content{
+    display: flex;
+    margin: 0 -15px;
+
+    @media (max-width: $screen-sm-max) {
+        display: inherit;
+    }
+
+}
+
+.page-content__page-header {
+    margin: 0 0 0 10px;
+    padding: 5px 0;
+    color: #20609e!important;
+    font-size: $font-size-h3;
+    line-height: $line-height-computed;
+}
+
+.page-content__page-sub-title{
+    font-weight: $headings-font-weight;
+    font-size: $font-size-large;
+}
+
+.page-content__instrumental-panel-spot-area {
+    position: relative;
+}
+
+.page-content__instrumental-panel-spot{
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    border-radius: 50%;
+    /* background-image: url(../images/highlightIcon.png); */
+    background-repeat: no-repeat;
+}
+
+.page-content__instrumental-panel-spot--one{
+    top: 62.7%;
+    left: 10%;
+}
+
+.page-content__instrumental-panel-spot--two{
+    top: 42%;
+    left: 19%;
+}
+
+.page-content__instrumental-panel-spot--three{
+    top: 61%;
+    left: 22.2%;
+}
+.page-content__instrumental-panel-spot--four{
+    top: 17%;
+    left: 36%;
+}
+
+.page-content__instrumental-panel-spot--five{
+    top: 43%;
+    left: 50%;
+}
+
+.page-content__instrumental-panel-spot--six{
+    top: 84%;
+    left: 74.5%;
+}
+
+.page-content__instrumental-panel-spot--seven{
+    top: 62%;
+    left: 88.5%;
+}
+
+#pdfIcon {
+    display: none;
+}
+
+#downloadIcon {
+    display: none;
+    @media (max-width: $screen-sm){
+        display: inline;
+    }
+}
+
+#printIcon {
+    display: none;
+    @media (min-width: $screen-md){
+        display: inline;
+    }
+}

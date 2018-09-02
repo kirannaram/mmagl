@@ -1,0 +1,72 @@
+
+<div class="container-fluid py-4"><!-- Container-fluid-->
+
+    <div class="flex-row d-flex justify-content-between mb-4"><!-- Steering Wheel Controls Heading -->
+        <div class="page-content__page-header">
+            Steering Wheel Controls
+        </div>
+        <div class="align-self-center page-content__share-icons">
+            <img src="assets/images/download_icon.jpg" alt="" id="downloadIcon">
+            <img src="assets/images/print_icon.jpg" alt="" id="printIcon" class="px-3 hidden-sm-down">
+            <img src="assets/images/pdf_icon.jpg" alt="" id="pdfIcon" class="hidden-sm-down">
+        </div>
+    </div><!-- Steering Wheel Controls Heading End-->
+
+<!-- Steering Wheel Controls Content End-->
+    <div class="d-flex flex-lg-row flex-column">
+        <div class="flex--basis-50 pt-lg-0 p-5">
+            <div class="content-block__title">
+                INFO/SET switches
+            </div>
+            <div class="content-block__text">
+                <p>Use the arrows above and below to set the volume of the EyeSight warnings and to view information on other vehicle functions in the multi-function display.</p>
+            </div>
+
+            <div class="content-block__title">
+                Adaptive Cruise Control switch
+            </div>
+            <div class="content-block__text">
+                <p>Press to activate or deactivate Adaptive Cruise Control function.</p>
+            </div>
+
+            <div class="content-block__title">
+                RES/+ switch
+            </div>
+            <div class="content-block__text">
+                <p>Press to resume set speed or to increase set speed while in either Adaptive or Conventional Cruise Control.</p>
+            </div>
+
+            <div class="content-block__title">
+                SET/- switch
+            </div>
+            <div class="content-block__text">
+                <p>Press to set current speed or to reduce set speed while in either Adaptive or Conventional Cruise Control.</p>
+            </div>
+
+            <div class="content-block__title">
+                Lane Keep Assist switch
+            </div>
+            <div class="content-block__text">
+                <p>Press to activate or deactivate Lane Keep Assist.</p>
+            </div>
+
+            <div class="content-block__title">
+                Following Distance Setting / Conventional Cruise Control switch
+            </div>
+            <div class="content-block__text">
+                <ul class="content-block__unordered-list">
+                    <li>Press to change the following distance setting while using Adaptive Cruise Control.</li>
+                    <li>Press and hold to activate or deactivate Conventional Cruise Control.</li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="flex--basis-50 align-self-center flex-first flex-lg-unordered flex-column">                        
+            <img src="assets/images/ascent/steering_wheel_controls.jpg" alt="" class="img-responsive pl-lg-5">
+        </div>
+    </div>
+<!-- Steering Wheel Controls Content End-->
+
+</div><!-- Container-fluid End -->
+ 
