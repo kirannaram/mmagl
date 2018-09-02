@@ -1,0 +1,113 @@
+﻿<div class="container-fluid"><!-- Container-fluid-->
+
+    <div class="flex-row d-flex justify-content-between mb-4"><!-- While Operating -->
+        <div class="content-block__page-header">
+            Controls
+        </div>
+        <div class="align-self-center content-block__share-icons">
+            <img src="assets/_images/download_icon.jpg" alt="" id="downloadIcon">
+            <img src="assets/_images/print_icon.jpg" alt="" id="printIcon" class="px-3 hidden-sm-down">
+            <img src="assets/_images/pdf_icon.jpg" alt="" id="pdfIcon" class="hidden-sm-down">
+        </div>
+    </div><!-- While Operating End-->
+
+    <!-- Light Controls -->
+    <div class="content-block__page-content-text">
+        <div class="content-block__title mb-4">
+            Light Controls
+        </div>
+
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4">
+                <img src="assets/_images/ascent/light_controls.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 pl-lg-5 align-self-center">
+                <ol class="content-block__page-unordered-list">
+                    <li>Push forward to change from low beam to high beam. Pull the lever back to center to return to low beam.</li>
+                    <li>Push slightly up for lane change or fully up for right turn signal.</li>
+                    <li>Push slightly down for lane change or fully down for left turn signal.</li>
+                    <li>AUTO (if equipped): The vehicle’s lights are automatically on or off, depending on the level of outside light.</li>
+                    <li>Turns on headlights, instrument panel illumination, parking lights, tail lights and license plate lights.</li>
+                    <li>Rotate to turn on fog lights (if equipped).</li>
+                    <li>Turns on instrument panel lights, tail lights, parking lights and license plate lights.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- Light Controls End-->
+
+    
+    <div class="content-block__page-content-text">
+        <!--<div class="content-block__title mb-4">
+            Light Controls
+        </div>-->
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4">
+                <img src="assets/_images/ascent/light_control_adjust.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 align-self-center pl-lg-5">
+                <p>While the light switch is on, rotate the dial downward to dim the instrument panel illumination. Rotate the dial upward to make the illumination brighter. When the dial is fully rotated upward (dots aligned), the instrument panel illumination stays at full brightness.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Windshield Wipers -->
+    <div class="content-block__page-content-text">
+        <div class="content-block__title mb-4">
+            Windshield Wipers
+        </div>
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-20 mb-4">
+                <img src="assets/_images/ascent/windshield_wipers.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-80 align-self-center pl-lg-5">
+                <p>To turn on the wipers, press the wiper control lever down one level for intermittent, two levels for low, or three levels for high speed. Return the lever to the “OFF” position to stop the wipers. For a single wipe, move the lever up. To spray washer fluid, pull and hold the lever toward you. Rotate the dial to adjust the intermittent wiper speed.</p>
+                <p>To operate the rear wiper, rotate the end of the knob upward to the intermittent, continuous, or wash position. When the rear wiper is off, rotate the knob downward to wash and wipe the rear window.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Windshield Wipers End-->
+
+<!-- Rain Sensing Windshield Wipers (if equipped) -->
+    <div class="content-block__page-content-text">
+        <div class="content-block__title mb-4">
+            Rain Sensing Windshield Wipers (if equipped)
+        </div>
+        <div class="d-flex flex-lg-row flex-column">
+            <p>Rotate the dial to adjust the sensitivity of the rain light sensor for wiper control.</p>
+        </div>
+    </div>
+    <!-- Rain Sensing Windshield Wipers (if equipped) End-->
+
+    <!-- Daytime Running Lights -->
+    <div class="content-block__page-content-text">
+        <div class="content-block__title mb-4">
+            Daytime Running Lights
+        </div>
+        <div class="d-flex flex-lg-row flex-column">
+            <p>Daytime running lights are standard on your vehicle. Only the front daytime running lights will be automatically turned on when the engine has started, the parking brake is fully released and the light switch is in the “OFF”, “AUTO” (if equipped) or <img src="assets/_images/ascent/light_bright.jpg" alt=""> position. The brightness of the illumination of the high beam headlights is reduced by the daytime running light system. You must always switch on your headlights when it is dark outside by turning the light switch to the <img src="assets/_images/ascent/light_switch.jpg" alt=""> position or have the switch in the “AUTO” position.</p>
+        </div>
+    </div>
+    <!-- Daytime Running Lights End-->
+
+<!-- Three-zone Automatic Climate Control -->
+    <div class="content-block__page-content-text">
+        <div class="content-block__title mb-4">
+            Dual Zone Automatic Climate Control System (if equipped)
+        </div>
+
+        <div class="d-flex flex-lg-row flex-column">
+            <div class="flex--basis-30 mb-4 align-self-center">
+                <img src="assets/_images/ascent/automatic_climate_control.jpg" alt="" class="img-responsive">                           
+            </div>
+            <div class="flex--basis-70 pl-lg-5">
+                <ol class="content-block__page-unordered-list">
+                    <li>
+                        <strong>Automatic On and Off</strong>
+                        <p>This system automatically controls outlet air temperature, fan speed, air flow distribution, air inlet control, and air conditioner compressor operation. Press “AUTO” to activate. Press “OFF” to turn off the system.</p>
+                    </li>
+                    <li>
+                        <strong>Temperature Control Dial</strong>
+                        <p>Rotate the dial clockwise to increase the temperature or rotate the dial counterclockwise to decrease the temperature. The temperature is displayed digitally on the screen. Separate temperature settings can be adjusted for the driver’s side and passenger’s side.</p>
+                    </li>

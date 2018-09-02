@@ -1,0 +1,41 @@
+/***************************************
+                Gauges
+***************************************/
+
+.gauges {
+
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+
+}
+
+.gauges__grid-item {
+
+    border-bottom: 1px solid #e7e5e3;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+    @media (max-width: $screen-xs-min) {
+      flex-basis: 100%;
+      &:nth-child(2n){
+        background-color: #e7e5e3;
+      }
+    }
+
+
+}
+
+.gauges__grid-item--text{
+  width: 50%;
+  display: inline-block;
+}
+
+.gauges__grid-item-gray {
+  background: #e7e5e3; 
+  @media (max-width: $screen-xs-min) {
+    background-color: inherit;
+  }
+}

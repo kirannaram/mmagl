@@ -1,0 +1,91 @@
+/***************************************
+           FOOTER
+***************************************/
+.footer {
+    width: 100%;
+    background-color: rgba(188, 185, 178, 0.85);
+    padding: 15px;
+    margin: 0px; 
+    min-height: 20vh;
+    @media (max-width: $screen-sm-max) {
+        flex-flow: column;
+        float: left;
+        margin: 0px;
+    }
+}
+
+    .footer__column {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        color: #585858;
+        margin: 10px 10px;
+
+        @media (max-width: $screen-sm-max) {
+            width: 50%;
+            margin: 0px 0 20px;
+            text-align: center;
+            span{
+                display: block;
+            }
+        }
+
+        @media (max-width: $screen-sm-min) {
+            width: 100%;
+            span{
+                display: block;
+            }
+        }
+    }
+
+        .footer__links-row {
+            @media (max-width: $screen-sm-max) {
+                flex-flow: column;
+            }
+        }
+
+            .footer__links-list {
+                margin: 0;
+                padding: 0;
+                text-align: right;
+
+                @media (max-width: $screen-sm-max) {
+                    text-align: center;
+                }
+            }
+
+                .footer__link-item {
+                    list-style: none;
+                    padding: 0 15px;
+                    margin: 8px 0;
+                    border-left: 1px solid #585858;
+                    font-size: 12px;
+                    color: #585858;
+
+                    &:first-child{
+                        border: 0px;
+                    }
+                }
+
+    .footer__logo {
+        padding-top: 20px;
+        border-left: 1px solid #585858;
+
+        @media (max-width: $screen-sm-max) {
+            border-left: 0px;
+            border-top:  1px solid #585858;
+        }
+    }
+
+    .footer__rsa {
+        font-size: 18px;
+        span{
+            font-size: 28px;
+            display: block;
+        }
+
+        @media (max-width: $screen-sm-max) {
+            text-align: center;
+        }
+    }
